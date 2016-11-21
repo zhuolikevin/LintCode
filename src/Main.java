@@ -4,7 +4,7 @@
 public class Main {
 
   public static void main(String[] args) {
-    Fibonacci solution = new Fibonacci();
-    System.out.println(solution.fibonacci(-1));
+    FizzBuzz solution = new FizzBuzz();
+    System.out.println(solution.fizzBuzz(20));
   }
 }

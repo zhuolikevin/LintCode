@@ -11,7 +11,6 @@ public class RemoveLinkedListElements {
    * @return a ListNode
    */
   public ListNode removeElements(ListNode head, int val) {
-    // Write your code here
     ListNode fakeHead = new ListNode(-1);
     fakeHead.next = head;
     ListNode pre = fakeHead;
