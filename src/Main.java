@@ -4,7 +4,8 @@
 public class Main {
 
   public static void main(String[] args) {
-    FizzBuzz solution = new FizzBuzz();
-    System.out.println(solution.fizzBuzz(20));
+    SingleNumber solution = new SingleNumber();
+    int[] a = {1,1,2,2,3,4,4};
+    System.out.println(solution.singleNumber2(a));
   }
 }
