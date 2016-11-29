@@ -17,7 +17,7 @@ public class Main {
     b.left = c;
     b.right = d;
     d.right = e;
-    MaximumDepthOfBinaryTree solution = new MaximumDepthOfBinaryTree();
-    System.out.println(solution.maxDepth2(root));
+    IdenticalBinaryTree solution = new IdenticalBinaryTree();
+    System.out.println(solution.isIdentical2(root, root));
   }
 }
